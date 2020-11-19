@@ -1,0 +1,16 @@
+.tabs .title {
+  display: flex;
+  font-family: '微软雅黑';
+
+}
+.tabs .title_item {
+  padding: 20rpx 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.tabs .active {
+  font-weight: bold;
+  
+}

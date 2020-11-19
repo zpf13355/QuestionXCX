@@ -1,0 +1,15 @@
+<view class="choose">
+    
+ <navigator  url="../../pages/eroll/eroll?code={{code}}&classify=学生" >
+    <view class="student">
+        <view class="text1">我是学生</view>
+    </view>
+</navigator>
+
+ <navigator url="../../pages/eroll/eroll?code={{code}}&classify=老师" >
+    <view class="teacher">
+        <view class="text2">我是老师</view>
+    </view>
+      </navigator>
+
+</view>

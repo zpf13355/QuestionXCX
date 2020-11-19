@@ -1,0 +1,53 @@
+page {
+  
+  background-color: rgb(26, 23, 27);
+  background-image: url('https://www.mutou135468.top/imgSetting/2222.png');
+  background-repeat: no-repeat;
+}
+.inputs {
+  background-color: #fff;
+  margin: 55rpx auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100rpx;
+  padding-left: 10rpx;
+  border-radius: 35rpx;
+  width: 80%;
+}
+.inputs input {
+  height: 100rpx;
+  padding: 10rpx 10rpx;
+  font-size: 40rpx;
+  font-family: KaiTi;
+  font-weight: 10rpx;
+}
+.click::after {
+  border: none;
+}
+.click {
+  height: 100rpx;
+  width: 80%;
+  background-color: rgb(240, 200, 69);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 60rpx;
+  font-weight: bold;
+  font-size: 35rpx;
+}
+.login{
+  color: white;
+  font-size: 50rpx;
+  margin-top: 150rpx;
+  margin-bottom: 60rpx;
+  margin-left: 80rpx;
+}
+.plas{
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+}
+.view{
+  margin-top: 150rpx;
+}

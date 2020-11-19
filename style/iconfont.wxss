@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1779545_gxfqpz8pcnd.eot?t=1587735380063'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1779545_gxfqpz8pcnd.eot?t=1587735380063#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOEAAsAAAAAB1wAAAM4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCQIIvATYCJAMMCwgABCAFhG0HPBt7BsgepTUWF/d0trzIqJy6p5MVhVkhpNZQIIPsuMaRlTLBk/kJ9KWXGyDAzHxWbNT7PJfTm+LX+JblMuayPfioF2AcUEB7Y1sTKpCAvGHsJoKGeBoIAC/EyUaaW7uV4MECTCIAiNVs0oLPOME21BLwIOAqVrIga6AAzyxlHgJYzb9PfqIwHmCgoAAz+9diQP0zv2joHPccYygB1XR+AMY6gALIBrAAGVcZHIFG6WwUXp6RbS7lwIKAmSrmdgNX+mZuo388BiAcQLUPACBdzjDAl0wsAQJ80awCAwCgAAAOj5HVA5Yq1pCh96QxfAJN35aqVm9bFqFUHtgRqlJuOZqmUW1cvnl7mFqzWbkhVKXetCxEGcvT9sPhlXdOUY1m5hxdfpzQuceWHdHv2BNx4mU54/tG46V587p0g8p7+cXIOSO2XPHyWXYtiuZnapYrd5RrvwwkfkswPZuTOofIRM/EA48O70/7EvSFf2KFicaQ//18Rlbo+ejX6ut5cZcPqHUBOiITPfKuL5x3JYrYhx2GNjuJGnF79xzfxIJ86fuCSlT/mXn3anB1w6DFkHwh4eJbz1Yfa8K4sxFLHqyKm8kpejcO00Tq4pK4wytH0Xud/A6Pl1mYAIylKygDuN10KiU/5DcwNXzceP/qeW8WAPD+no+Sj3G7WVAGAH+6IQK8flXHJtbXABdlXSVWhmGKwlvxM4AsNyNwA0SDfB5uDu1cDRDwCE3AwAOxoOCRTLJsNhTwRjE48KiDF7K0rfdGMAkFYT0BZFoogSDAaTDww21QBHhEsuwnKBDmNzgEROEFdcE7eiM1s1eTJGpl0SDopgpmvcNuRB7ZS9QOE01DVq2U1nBOLUouc0woyM3P59pEuyhNMcc1yVQoy0bBKDlsQqt0nmi1OgSn5Jgo6uXcQVl2VublGatelKt32OCFJhKRlkxkINCZSmCm52BnpO1lXoXPDyMyGWKlJTXwetJqIomLuXtBgVz5Hcg2o70T71YucZnEpJBMZiQwkjjYCFqlYSIrKweBs3rYRCI9Wa7BAUmnSnmwlbGrMXd5s+39dgB4AexECUMoYcG7Bh1Deq3d5GEwU9005AAA') format('woff2'),
+  url('//at.alicdn.com/t/font_1779545_gxfqpz8pcnd.woff?t=1587735380063') format('woff'),
+  url('//at.alicdn.com/t/font_1779545_gxfqpz8pcnd.ttf?t=1587735380063') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1779545_gxfqpz8pcnd.svg?t=1587735380063#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoucang:before {
+  content: "\e62a";
+}
+
+.icon-dianzan:before {
+  content: "\e657";
+}
+

@@ -1,0 +1,41 @@
+<view class="background"></view>
+<block class="block">
+    <view class="message">
+        <open-data  type="userAvatarUrl" class="headimg"></open-data>
+        <view class="content">
+            <view class="name">
+                
+                <text>{{pname}}</text>
+            </view>
+            <view class="classify" >
+                <view class="cc">
+                    {{pclassify}}
+                    </view>
+                    
+            </view>
+              <view class="cid">
+                <text>{{pno}}</text>
+            </view>
+            <view class="profession">
+                <text wx:if="{{ppro}}">{{ppro}}</text>
+                 <text  wx:if="{{pgrade}}">{{pgrade}}</text>
+                <text wx:if="{{pclass}}">{{pclass}}</text>
+            </view>
+          
+        </view>
+       
+    </view>
+
+    <view class="collect" bind:tap="collect" data-id='{{pno}}'>
+        <text>我的收藏</text>
+    </view>
+    <view class="double" bind:tap="ques" data-id='{{pno}}'>
+        
+        <text>我的疑问</text>
+    </view>
+
+    <view >
+      <button class="suggest" open-type='feedback' >意见反馈</button>
+    </view>
+</block>
+

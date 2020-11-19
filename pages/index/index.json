@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchIput":"../../components/search/searchIput"
+  },
+  "navigationBarTitleText": "在线答疑"
+}

@@ -1,0 +1,19 @@
+
+    <view class="login">
+    <text >
+        输入姓名学号
+    </text>
+</view>
+<view class="inputs">
+    <input  placeholder="请输入您的姓名" placeholder-class="plas" type="text" bindinput="nameInput"></input>
+</view>
+<view class="inputs">
+    <input  placeholder="请输入您的学号/教工号" placeholder-class="plas" type="number" bindinput="snoInput"></input>
+</view>
+<view class="click" bindtap="zc">登录</view>
+
+
+
+
+
+

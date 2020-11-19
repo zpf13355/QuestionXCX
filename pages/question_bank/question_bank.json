@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchIput": "../../components/search/searchIput"
+  },
+  "navigationBarTitleText": "科目提问"
+ 
+}

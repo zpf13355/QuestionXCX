@@ -1,0 +1,34 @@
+<!--搜索框-->
+  <searchIput></searchIput>
+<scroll-view scroll-y="true" class="up">
+    <view wx:for="{{list}}" wx:key="id" class="list">
+        <view class="first" bind:tap="getextra" data-id='{{item.qid}}'>
+            <view class="title">{{item.qtitle}}
+            <view class="gengduo" >
+                点击查看
+            </view>
+            </view>
+        </view>
+      
+        <view class="third">
+            <view class="message">
+                <text class="profession" wx:if="{{item.ppro}}">{{item.ppro}}</text>
+                 <text  wx:if="{{item.pgrade}}">{{item.pgrade}}</text>
+                <text class="cname" wx:if="{{item.pclass}}">{{item.pclass}}</text>
+            
+                <text class="name" wx:if="{{item.pclassify=='学生'}}">{{item.pname}}</text>
+                 <text class="namet" wx:if="{{item.pclassify=='老师'}}">老师 : {{item.pname}}</text>
+                 <text class="namen" wx:if="{{item.pname=='匿名用户'}}">{{item.pname}}</text>
+            </view>
+            <view class="icon">
+                <view class="dainzan">
+                    <text>{{item.qdate}}</text>
+                </view>
+                <view class="shoucang" >
+                    <text class="iconfont icon-shoucang"></text>
+                    <text class="shoucang_num">{{item.qcollect}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

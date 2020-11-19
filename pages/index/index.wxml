@@ -1,0 +1,35 @@
+<view class="main_index">
+  <!--搜索框-->
+  <searchIput></searchIput>
+  <!--轮播图-->
+  <view class="index_swiper">
+    <swiper autoplay indicator-dots circular>
+      <swiper-item
+        wx:for="{{swiperList}}"
+        wx:key="id"
+      >
+        <navigator url="../../pages/question_bank/question_bank?subject={{item.id}}">
+          <image mode="widthFix" src="{{item.image_url}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!--我要提问-->
+  <navigator url="../../pages/editor/editor">
+  <view class="index_askQuestion">
+    
+        我要提问
+
+  </view>
+    </navigator>
+  <!--我要回答-->
+  <navigator url="../../pages/cates/cates">
+  <view class="index_answer">
+  
+        我要看题
+   
+  </view>
+   </navigator>
+</view>
+  

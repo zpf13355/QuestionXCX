@@ -1,0 +1,102 @@
+
+.up {
+  height: calc(100vh - 100rpx);
+}
+.up .content {
+  display: flex;
+  align-items: center;
+  margin: 10rpx 0;
+}
+.up .content .num1 text {
+  font-family: Microsoft Yahei;
+  margin-left: 5rpx;
+  font-weight: 600;
+  font-size: 100rpx;
+}
+.up .content .num2 text {
+  font-family: Microsoft Yahei;
+  margin-left: 15rpx;
+  font-weight: 600;
+  font-size: 80rpx;
+}
+.up .content .num3 text {
+  font-family: Microsoft Yahei;
+  margin-left: 20rpx;
+  font-weight: 600;
+  font-size: 60rpx;
+}
+.up .content .num4 text {
+  font-family: Microsoft Yahei;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40rpx;
+  margin-left: 30rpx;
+  margin-right: 25rpx;
+}
+.up .content .two {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.up .content .two .message {
+  display: flex;
+  align-items: center;
+  margin-right: 145rpx;
+  width: 500rpx;
+  height: 100rpx;
+  margin-left: 10rpx;
+}
+.up .content .two .message image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.up .content .two .message text {
+font-size: 35rpx;
+
+}
+.up .content .two .score {
+  display: flex;
+  align-items: center;
+
+  height: 100rpx;
+  width: 200rpx;
+}
+.up .content .two .score .textOne {
+  display: flex;
+  font-weight: 400;
+  font-size: 40rpx;
+  height: 100rpx;
+  width: 50rpx;
+  align-items: center;
+  line-height: 100rpx;
+  margin-left: -200rpx;
+
+}
+.up .content .two .score .textTwo {
+  font-weight: 400;
+  font-size: 30rpx;
+
+  padding-top: 20rpx;
+  margin-left: 30rpx;
+}
+.rules{
+  margin-left: 27rpx;
+  margin-top: 50rpx;
+
+  height: 200rpx;
+  font-size: 35rpx;
+}
+page{
+  background-image: url('https://www.mutou135468.top/imgSetting/2222gaosi.png');
+  filter:(2px);
+  color: white;
+}
+.classname{
+  font-size: 30rpx;
+  margin-right: 0rpx;
+}
+textarea{text-indent:10px }
+@import "../../pages/iconfont.wxss"

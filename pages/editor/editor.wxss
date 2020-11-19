@@ -1,0 +1,82 @@
+
+@import "./assets/iconfont.wxss";
+.container {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+}
+.title{
+  border: none;
+  height: 100rpx;
+  text-align: center;
+   font-size: 16px;
+   line-height: 1.5;
+}
+.submit{
+  
+  border-radius: 10%;
+  position:absolute;
+  right: 9rpx;
+  top:9rpx;
+}
+
+.switch{
+  margin-left: 9rx;
+  zoom: 0.8;
+  text-align: justify;
+
+  font-weight: bolder;
+  color: darkgrey;
+  font-family: '幼圆';
+}
+.picker{
+  margin-left: 9rx;
+  right: 19rpx;
+  color: darkgrey;
+  text-align: center;
+  font-weight: bolder;
+  font-family: '幼圆';
+ 
+}
+.ql-container {
+  
+  width: 100%;
+  height: 850rpx;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: auto;
+  padding: 10px 10px 20px 10px;
+  
+}
+
+.ql-active {
+  color: #22C704;
+}
+
+.iconfont {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ECECEC;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+}
+

@@ -1,0 +1,41 @@
+<view class="container" style="height:{{editorHeight}}px;">
+	<view class="" hover-class="none" hover-stop-propagation="false">
+
+		<!-- 提交按钮 -->
+		<button
+		 bind:tap="submit"
+		 type="primary"
+		 size="mini"
+		 class="submit"
+		>提交
+		</button>
+		<text>\n</text>
+
+	</view>
+
+	<view style="clear:both" />
+
+	<!-- 正文 -->
+	<editor
+	 id="editor"
+	 bindblur="editor"
+	 placeholder="{{content}}"
+	 class="ql-container"
+	 bindstatuschange="onStatusChange"
+	 bindready="onEditorReady"
+	/>
+</view>
+
+<view class="toolbar" catchtouchend="format" style="bottom: {{isIOS ? keyboardHeight : 0}}px">
+	<i class="iconfont icon-charutupian" catchtouchend="insertImage" />
+	<i class="iconfont icon-format-header-2 {{formats.header === 2 ? 'ql-active' : ''}}" data-name="header" data-value="{{2}}" />
+	<i class="iconfont icon-format-header-3 {{formats.header === 3 ? 'ql-active' : ''}}" data-name="header" data-value="{{3}}" />
+	<i class="iconfont icon-zitijiacu {{formats.bold ? 'ql-active' : ''}}" data-name="bold" />
+	<i class="iconfont icon-zitixieti {{formats.italic ? 'ql-active' : ''}}" data-name="italic" />
+	<i class="iconfont icon-zitixiahuaxian {{formats.underline ? 'ql-active' : ''}}" data-name="underline" />
+	<i class="iconfont icon--checklist" data-name="list" data-value="check" />
+	<i class="iconfont icon-youxupailie {{formats.list === 'ordered' ? 'ql-active' : ''}}" data-name="list" data-value="ordered" />
+	<i class="iconfont icon-wuxupailie {{formats.list === 'bullet' ? 'ql-active' : ''}}" data-name="list" data-value="bullet" />
+
+</view>
+

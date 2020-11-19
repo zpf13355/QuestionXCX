@@ -1,0 +1,91 @@
+page{
+  font-family: '宋体';
+  background-color:rgb(111, 186, 221);
+  background-image: url('https://www.mutou135468.top/imgSetting/2222.png');
+  background-repeat: repeat;
+}
+.list{
+  margin: 15rpx;
+  box-shadow:  5rpx 5rpx 5rpx 5rpx rgb(0, 0, 0);
+  border-radius: 10rpx;
+  background-color: white;
+}
+.gengduo{
+  font-family: '微软雅黑';
+  font-size: 30rpx;
+  color: rgb(151, 151, 151);
+  width: 120rpx;
+  float: right;
+}
+.up .first {
+  margin-top: 25rpx;
+  margin-left: 50rpx;
+ height: 150rpx;
+ justify-items: center;
+ align-items: center;
+  
+}
+.up .first .title {
+  font-size: 40rpx;
+  line-height: 100rpx;
+  font-weight: 900;
+  margin-right: 15rpx;
+  margin-top: 15rpx;
+  padding-top: 35rpx;
+  padding-left: 25rpx;
+}
+.up .second {
+  display: flex;
+  flex: 1;
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+}
+.up .second .content {
+  font-size: 30rpx;
+  color: #d3cfcf;
+}
+.up .third {
+  display: flex;
+  margin-top: 30rpx;
+
+}
+.up .third .message {
+  margin-left: 35rpx;
+  color: rgb(0, 0, 0);
+}
+.up .third .message text {
+  padding-left: 15rpx;
+}
+.up .third .icon {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+  text-align: right;
+  padding-right: 23rpx;
+  font-size: 25rpx;
+}
+.up .third .icon .dainzan {
+  padding-left: 20rpx;
+}
+.up .third .icon .dainzan text {
+  font-size: 30rpx;
+ 
+  
+}
+.up .third .icon .shoucang text {
+  font-size: 38rpx;
+  font-weight: bolder;
+
+}
+.profession{
+  margin-right: 0rpx;
+}
+.cname{
+  margin: 0;
+}
+.namet{
+  color: rgb(230, 23, 23);
+}
+.namen{
+  margin-bottom: 20rpx;
+}

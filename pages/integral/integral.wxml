@@ -1,0 +1,179 @@
+<!--tabs-->
+<tabs tabs="{{tabs}}" bindtabsItemChange="handleTitle">
+<scroll-view scroll-y class="up">
+  <!--全部-->
+  <block wx:if="{{tabs[0].isActive}}">
+    <!--第一名-->
+    <view class="content" >
+      <!--排名-->
+      <icon class="iconfont icon-first " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+        
+         
+            
+    
+          <text>{{list1.ppro}}{{list1.pclass}}{{list1.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+          <text class="textOne">{{list1.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--第二名-->
+    <view class="content">
+      <!--排名-->
+      <icon class="iconfont icon-second " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+    
+          <text>{{list2.ppro}}{{list2.pclass}}{{list2.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+          <text class="textOne">{{list2.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--第三名-->
+    <view class="content">
+      <!--排名-->
+      <icon class="iconfont icon-third " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+       
+          <text>{{list3.ppro}}{{list3.pclass}}{{list3.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+           <text class="textOne">{{list3.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--其余排名-->
+    <view class="content"  wx:for="{{list4}}" wx:key="id">
+      <!--排名-->
+      <view class="num4">
+        <text>{{index+4}}</text>
+      </view>
+      <view class="two">
+          <!--信息-->
+          <view class="message">
+         
+            <text>{{item.ppro}}{{item.pclass}}{{item.pname}}</text>
+          </view>
+          <!--积分-->
+          <view class="score">
+             <text class="textOne">{{item.contribute}}</text>
+          <text class="textTwo">分</text>
+          </view>
+      </view>
+    </view>
+
+    <!--积分规则-->
+
+  </block>
+    
+  <!--专业-->
+  <block wx:elif="{{tabs[1].isActive}}">
+       <!--第一名-->
+    <view class="content" >
+      <!--排名-->
+      <icon class="iconfont icon-first " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+        
+          <text>{{list1.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+          <text class="textOne">{{list1.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--第二名-->
+    <view class="content">
+      <!--排名-->
+      <icon class="iconfont icon-second " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+      
+          <text>{{list2.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+          <text class="textOne">{{list2.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--第三名-->
+    <view class="content">
+      <!--排名-->
+      <icon class="iconfont icon-third " >
+      </icon>
+      <view class="two">
+        <!--信息-->
+        <view class="message">
+  
+          <text>{{list3.pname}}</text>
+        </view>
+        <!--积分-->
+        <view class="score">
+           <text class="textOne">{{list3.contribute}}</text>
+          <text class="textTwo">分</text>
+        </view>
+      </view>
+    </view>
+
+     <!--其余排名-->
+    <view class="content"  wx:for="{{list4}}" wx:key="id">
+      <!--排名-->
+      <view class="num4">
+        <text>{{index+4}}</text>
+      </view>
+      <view class="two">
+          <!--信息-->
+          <view class="message">
+        
+            <text>{{item.pname}}</text>
+          </view>
+          <!--积分-->
+          <view class="score">
+             <text class="textOne">{{item.contribute}}</text>
+          <text class="textTwo">分</text>
+          </view>
+      </view>
+    </view>
+
+    <!--积分规则-->
+  </block>
+
+  <!--积分规则-->
+  <view>
+  <text class="rules" cols="10" rows="5" decode="{{true}}" space="{{true}}">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;积分规则:已发表问题被收藏增加3分,已发表回答被点赞增加2分,回答问题增加1分,发表问题增加1分
+  </text>
+  </view>
+</scroll-view>
+</tabs>

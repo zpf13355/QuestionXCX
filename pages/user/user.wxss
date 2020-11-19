@@ -1,0 +1,106 @@
+page {
+  background-color: #f0f0f0;
+  height: 100%;
+  background-image: url('https://www.mutou135468.top/imgSetting/2222.png');
+  background-repeat: repeat;
+}
+.background {
+  background-color: rgb(26, 23, 27);
+  width: 100%;
+  height: 300rpx;
+}
+.message::after {
+  border: none;
+}
+.message {
+  margin-top: -190rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 30rpx;
+  height: 340rpx;
+  background-color: white;
+  display: flex;
+ 
+}
+.message .content {
+  flex: 5;
+ 
+}
+.message .content .name {
+  margin-top: 80rpx;
+  margin-left: 210rpx;
+  
+}
+.message .content .name text {
+  font-family: '微软雅黑';
+  font-size: 50rpx;
+}
+.classify{
+
+ position: absolute;
+ top: 200rpx;
+ left: 480rpx;
+ color: rgb(248, 216, 109);
+  font-weight: bold;
+  font-size: 50rpx;
+}
+
+.message .content .profession {
+  margin-top: 20rpx;
+  margin-left: 90rpx;
+  font-size: large;
+}
+.message .content .cid {
+  font-size: large;
+  margin-top: 40rpx;
+  margin-left: 90rpx;
+}
+
+.collect {
+  border-top: solid 1rpx rgb(255, 255, 255);
+  height: 110rpx;
+  margin-top: 90rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 80rpx;
+  border-bottom: solid 1rpx rgb(255, 255, 255);
+}
+.collect text {
+  margin: 20rpx 0;
+  font-weight: bold;
+  color: white;
+}
+.double {
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 80rpx;
+  border-bottom: solid 1rpx rgb(255, 255, 255);
+}
+.double text {
+  margin: 20rpx 0;
+  font-weight: bold;
+  color: white;
+}
+
+.suggest {
+  margin-top: 55rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  width: 250rpx;
+  margin-left: 70rpx;
+ 
+}
+.suggest text {
+  margin: 20rpx 0;
+  font-weight: bold;
+  padding-left: 20rpx;
+}
+.headimg{
+  position: absolute;
+  top: 180rpx;
+  left: 115rpx;
+  height: 100rpx;
+  width: 100rpx;
+}

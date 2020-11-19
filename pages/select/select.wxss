@@ -1,0 +1,50 @@
+page {
+  background-color: rgb(26, 23, 27);
+  background-image: url('https://www.mutou135468.top/imgSetting/2222.png');
+  background-repeat:no-repeat;
+  height: 100%;
+}
+.choose {
+  width: 100%;
+  height: 750rpx;
+  margin-left: 210rpx;
+}
+
+.choose .student {
+  margin-top: 200rpx;
+  height: 350rpx;
+  width: 350rpx;
+  box-shadow:5rpx 5rpx 5rpx rgb(52, 88, 24);
+  background-color: rgb(52, 88, 24);
+  border-radius: 50%;
+  position: relative;
+  font-size: 60rpx;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.choose .teacher {
+  font-weight: bold;
+  margin-top: 100rpx;
+  height: 350rpx;
+  width: 350rpx;
+  background-color: rgb(204, 113, 53);
+  box-shadow:5rpx 5rpx 5rpx rgb(204, 113, 53);
+  border-radius: 50%;
+  position: relative;
+  font-size: 60rpx;
+  color: aliceblue;
+}
+.choose .teacher text {
+  font-size: 60rpx;
+  font-weight: 700rpx;
+}
+.text1{
+  padding-top: 130rpx;
+  margin-left: 60rpx;
+  width: 100%;
+}
+.text2{
+  padding-top: 130rpx;
+  margin-left: 60rpx;
+ }

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/select/select",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/question_bank/question_bank",
+    "pages/search/search",
+    "pages/eroll/eroll",
+    "pages/hot_question/hot_question",
+    "pages/cates/cates",
+    "pages/solve/solve",
+    "pages/editor/editor",
+    "pages/extraQuestion/extra",
+    "pages/extraAnswer/extra",
+    "pages/edAnswer/editor",
+    "pages/question_list/question_list",
+    "pages/collect_list/collect_list",
+    "pages/integral/integral"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 30
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1a171b",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/hot_question/hot_question",
+        "text": "热门",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png"
+      },
+      {
+        "pagePath": "pages/integral/integral",
+        "text": "积分",
+        "iconPath": "images/4.jpg",
+        "selectedIconPath": "images/44.jpg"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/33.png",
+        "selectedIconPath": "images/3.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap49.json"
+}

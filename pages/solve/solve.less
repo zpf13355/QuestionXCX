@@ -1,0 +1,132 @@
+.question{
+    .title{
+        margin-top: 20rpx;
+        display: flex;
+        flex-direction: row;
+        margin-left: 20rpx;
+        .join{
+            display:flex;
+            border:2rpx solid blue;
+            align-items: center;
+            justify-content: center;
+            height:50rpx;
+            width:220rpx;
+            font-size: 30rpx;
+            color: blue;
+            font-weight: 600;
+
+        }
+        .content{
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp:1;
+            font-size: 35rpx;
+            margin-left: 20rpx;
+        }
+    }
+    .beiZhu{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30rpx;
+        margin-left: 20rpx;
+        .teacherName{
+            font-size: 30rpx;
+            color:#90EE90;
+        }
+        .teacherBlock{
+            display:flex;
+            border: 1rpx solid blue;
+            background-color: blue;
+            margin-left: 10rpx;
+            color: white;
+            font-size: 30rpx;
+            height:37rpx;
+            width:59rpx;
+        }
+        .time{
+            margin-left:30rpx;
+            color:rgb(185, 175, 175);
+            padding-right: 23rpx;
+            font-size: 30rpx;
+            margin-bottom: 20rpx;
+        }
+    }
+}
+.up{
+    background-color: rgb(245, 243, 243);
+    height:calc(100vh - 108rpx);
+    .first{
+        margin-left: 30rpx;
+        margin-top:20rpx;
+        display: flex;
+        flex-direction: row;
+        .title{
+            font-size: 35rpx;
+            color:#90EE90;
+        }
+        .time{
+            margin-top:10rpx;
+            margin-left: auto;
+            
+            text-align: right;
+            padding-right: 23rpx;
+            font-size: 30rpx;
+            color:rgb(185, 175, 175);
+        }
+    }
+    .second{
+        display:flex;
+        flex:1;
+        margin-left: 30rpx;
+        margin-top: 20rpx;
+        .content{
+            font-size: 30rpx;
+            color: black;
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp:3;
+        }
+
+    }
+    .third{
+    display:flex;
+        margin-top: 20rpx;
+        border-bottom: 1rpx solid  rgb(211, 207, 207);
+        
+        .icon{
+            display: flex;
+            flex-direction: row-reverse;
+            flex:1;
+            text-align: right;
+            
+           
+            .dainzan{
+                
+                padding: 0 20rpx;
+                .icon-dianzan{
+                    font-size: 50rpx;
+                    color:#90EE90;
+                }
+                .dainzannum{
+                    font-size: 40rpx;
+                    color:rgb(185, 175, 175);
+                }
+                
+            }
+            .shoucang{
+                
+                .icon-shoucang{
+                    font-size: 50rpx;
+                    color:#90EE90;
+                }
+                .shoucang_num{
+                    font-size: 40rpx;
+                    color:rgb(185, 175, 175);
+                }
+            }
+        }
+        
+    }
+}

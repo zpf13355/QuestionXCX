@@ -1,0 +1,56 @@
+<!--搜索框-->
+<searchIput></searchIput>
+<!--问题-->
+    <view class="question">
+        <view class="title">
+            <view class="join" wx:if="{{questionWithUser.user.pclassify=='老师'}}">老师参与</view>
+              <view class="join" wx:if="{{questionWithUser.user.pclassify=='学生'}}">学生提问</view>
+            
+            <view class="content">{{questionWithUser.qtxt}}</view>
+        </view>
+        <view class="beiZhu">
+            <text class="teacherName">{{questionWithUser.user.pname}}</text>
+            <text class="teacherBlock" wx:if="{{questionWithUser.user.pclassify=='老师'}}">{{questionWithUser.user.pclassify}}</text>
+            <text class="teacherBlock" wx:if="{{questionWithUser.user.pclassify=='学生'}}">{{questionWithUser.user.pclassify}}</text>
+            <text class="time">{{questionWithUser.qdate}}</text>
+            <text class="time2" bind:tap="extraQ">查看更多...</text>
+         </view>
+    </view>
+<!--回答-->
+<scroll-view scroll-y="true" class="up">
+    <view wx:for="{{list}}" wx:key="id" class="flo"  >
+        <view class="first">
+            <view class="title" wx:if="{{item.user.pclassify=='学生'}}">{{item.user.pname}}</view>
+            <view style="color:red" wx:if="{{item.user.pclassify=='老师'}}">老师:{{item.user.pname}}</view>
+            <view class="time">{{item.adate}}</view>
+        </view>
+        <view class="second" bind:tap="getAnswer" data-id='{{item.aid}}'>
+            <text class="content">{{item.atxt}}</text>
+            <view class="gengduo" >
+                点击查看更多
+            </view>
+        </view>
+        <view class="third">
+            
+            <view class="icon">
+            
+                <view class="dainzan" bind:tap="like" data-id='{{item.aid}}'>
+                    <text class="iconfont icon-dianzan"></text>
+                    <text class="dainzannum">{{item.alike}}</text>
+                </view>
+                
+            </view>
+        </view>
+    </view>
+</scroll-view>
+<view class="answer"  >
+    <view class="huifu"bind:tap="answer" >
+        <text class="textHUIFU" >
+            回复
+        </text>
+    </view>
+    <view class="shoucang">
+                    <text class="iconfont icon-shoucang" bind:tap="shoucang"></text>
+                    
+                </view>
+</view>

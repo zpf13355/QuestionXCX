@@ -1,0 +1,30 @@
+page {
+  background-color: #ffffff;
+  height: 100%;
+  margin-top: 0;
+}
+.up {
+  height: calc(100vh - 200rpx);
+}
+.up .group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.up .group navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30rpx 50rpx;
+  background-color: #ffffff;
+}
+.up .group navigator .img image {
+  width: 200rpx;
+  height: 200rpx;
+  
+  box-shadow:1rpx  1rpx 3rpx 3rpx rgb(98, 113, 126);
+  border-radius: 50%;
+
+}

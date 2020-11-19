@@ -1,0 +1,18 @@
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: rgb(0, 0, 0);
+  font-size: 43rpx;
+  font-family: '幼圆';
+}
+.search_input input {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15rpx;
+}
+.hah{
+  padding-left: 185rpx;
+}

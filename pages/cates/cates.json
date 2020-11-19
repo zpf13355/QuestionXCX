@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchIput": "../../components/search/searchIput",
+    "tabs":"../../components/tabs/tabs"
+  },
+  "navigationBarTitleText": "科目分类"
+}
